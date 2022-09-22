@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-annotations/9401af5/test-utils-annotations-9401af5.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-annotations",
+    "version": "9401af5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-annotations-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-annotations.klib",
+          "url": "test-utils-annotations-iosx64-9401af5.klib",
+          "size": 11314,
+          "sha512": "ea144cab8ebc3e6a232c1c1081208ff4aea2db5fb442d6bcb6d9b3754e39ba2d43a6abcfa27066b763d682828b688b5f6a4da905fd95ea95dbb680a6467a5f0c",
+          "sha256": "a289607ed549dfd78adee106fddbbfd91c226006272d36a194568739015aa316",
+          "sha1": "0dc10284a8525b4a96e0bebf51e8748e56529d12",
+          "md5": "d84f1f9aebf41f389e54a73509ad0606"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-annotations-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-annotations-iosx64-9401af5-metadata.jar",
+          "url": "test-utils-annotations-iosx64-9401af5-metadata.jar",
+          "size": 261,
+          "sha512": "2319fdc039807bfb0653aba41da4a7de4a79829daad380b1c7d119e472fd6ec4ea209bed4f053ab60f8f2bf1e447dd9de607affd2df4ca8cc3496c23559f3c97",
+          "sha256": "31c1bcd98f269365bab186d3f3723f1addbcd14143868bcba8fe69334ab33f33",
+          "sha1": "bcff49729edbdda533ba99c811e13b2836665bd5",
+          "md5": "2c5e8e5defcfa3b0af8e1142d5f260be"
+        }
+      ]
+    }
+  ]
+}
