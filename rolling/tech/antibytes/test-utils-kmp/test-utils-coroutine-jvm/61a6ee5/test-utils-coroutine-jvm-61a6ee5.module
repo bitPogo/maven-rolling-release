@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-coroutine/61a6ee5/test-utils-coroutine-61a6ee5.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-coroutine",
+    "version": "61a6ee5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-utils-coroutine-jvm-61a6ee5.jar",
+          "url": "test-utils-coroutine-jvm-61a6ee5.jar",
+          "size": 11975,
+          "sha512": "d7aa00e3892b5f65109f51850c3d73ed8e64fd252e556926c5c094931858aa2706113daf6726262cccfbb499e920e1a65358d6901c0045849ec1f962bace1304",
+          "sha256": "7c4db075969839c1cce735303ccfe43c7f422a6ff783950090db1e34ef3bd7b9",
+          "sha1": "61491a28da78e2cc2f75baef906af455f8d4cf0c",
+          "md5": "405dacef2becb074e468ee0f199c5784"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-coroutine-jvm-61a6ee5.jar",
+          "url": "test-utils-coroutine-jvm-61a6ee5.jar",
+          "size": 11975,
+          "sha512": "d7aa00e3892b5f65109f51850c3d73ed8e64fd252e556926c5c094931858aa2706113daf6726262cccfbb499e920e1a65358d6901c0045849ec1f962bace1304",
+          "sha256": "7c4db075969839c1cce735303ccfe43c7f422a6ff783950090db1e34ef3bd7b9",
+          "sha1": "61491a28da78e2cc2f75baef906af455f8d4cf0c",
+          "md5": "405dacef2becb074e468ee0f199c5784"
+        }
+      ]
+    }
+  ]
+}

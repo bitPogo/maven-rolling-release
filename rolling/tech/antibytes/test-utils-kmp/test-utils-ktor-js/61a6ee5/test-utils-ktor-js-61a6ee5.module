@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-ktor/61a6ee5/test-utils-ktor-61a6ee5.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-ktor",
+    "version": "61a6ee5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-nodejs",
+          "version": {
+            "requires": "0.0.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-js-61a6ee5.klib",
+          "url": "test-utils-ktor-js-61a6ee5.klib",
+          "size": 12119,
+          "sha512": "29d22ef51002d3916ba49575840e446965e9a670b89ffe75860d2b7631e84ed230bff0b9bd58b49d07b54156c626a5897f1674d88e80d29b31e7b396c466a49f",
+          "sha256": "1c7e2725508ef5fe52da965887247ef351e95ebe6804dc10f67814f16575b9aa",
+          "sha1": "d7119473ff67b94a74ada6d347afbcaa21351233",
+          "md5": "71ad58bed3cfe9c79bc19a6ad68226f6"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-nodejs",
+          "version": {
+            "requires": "0.0.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-iso-collections",
+          "version": {
+            "requires": "1.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlinx",
+              "module": "kotlinx-coroutines-core"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-ktor-js-61a6ee5.klib",
+          "url": "test-utils-ktor-js-61a6ee5.klib",
+          "size": 12119,
+          "sha512": "29d22ef51002d3916ba49575840e446965e9a670b89ffe75860d2b7631e84ed230bff0b9bd58b49d07b54156c626a5897f1674d88e80d29b31e7b396c466a49f",
+          "sha256": "1c7e2725508ef5fe52da965887247ef351e95ebe6804dc10f67814f16575b9aa",
+          "sha1": "d7119473ff67b94a74ada6d347afbcaa21351233",
+          "md5": "71ad58bed3cfe9c79bc19a6ad68226f6"
+        }
+      ]
+    }
+  ]
+}

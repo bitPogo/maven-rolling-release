@@ -1,0 +1,279 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-annotations",
+    "version": "61a6ee5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-annotations-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-annotations-metadata-61a6ee5-all.jar",
+          "url": "test-utils-annotations-61a6ee5-all.jar",
+          "size": 10390,
+          "sha512": "9c8ab70b1235533d18874e1e06f80717471d5a1149a28e429245b164c84cd7cd595081f9a12477245d256afe0bbb55cbdbdb2c882a1bf3bee6d36bdbdac2b17f",
+          "sha256": "4f1cc94eeb29a1aea9b955442e4a4464220c684f126d7c0c236e9f4d5b2f67cb",
+          "sha1": "4cccc106dbeae794df7344d56e32bbf7096ebd1a",
+          "md5": "8b589e21a23f4032f1411e3cca20f753"
+        }
+      ]
+    },
+    {
+      "name": "commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "test-utils-annotations-61a6ee5.jar",
+          "url": "test-utils-annotations-61a6ee5.jar",
+          "size": 7367,
+          "sha512": "5bff97b630b054052c84a3ccf5a2af647cdb73ea2d307c16f7d9588ce05fd53827311c960ed5fab3d77520dd217f76a6a8d842e4fb0e0c1cba479cfacaf6e348",
+          "sha256": "74eb3e38536a6f17ad7283615b2e8f78a05b9addca8dc3ebc8dd944b7378bf89",
+          "sha1": "ddd7aa268e79b3cf37d83a7261f9a0d96ec0d054",
+          "md5": "14b1c59e8ab113ed681070c6f7948043"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-utils-annotations-android/61a6ee5/test-utils-annotations-android-61a6ee5.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-annotations-android",
+        "version": "61a6ee5"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../test-utils-annotations-android/61a6ee5/test-utils-annotations-android-61a6ee5.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-annotations-android",
+        "version": "61a6ee5"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-annotations-iosarm64/61a6ee5/test-utils-annotations-iosarm64-61a6ee5.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-annotations-iosarm64",
+        "version": "61a6ee5"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-annotations-iosarm64/61a6ee5/test-utils-annotations-iosarm64-61a6ee5.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-annotations-iosarm64",
+        "version": "61a6ee5"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-annotations-iossimulatorarm64/61a6ee5/test-utils-annotations-iossimulatorarm64-61a6ee5.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-annotations-iossimulatorarm64",
+        "version": "61a6ee5"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-annotations-iossimulatorarm64/61a6ee5/test-utils-annotations-iossimulatorarm64-61a6ee5.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-annotations-iossimulatorarm64",
+        "version": "61a6ee5"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-annotations-iosx64/61a6ee5/test-utils-annotations-iosx64-61a6ee5.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-annotations-iosx64",
+        "version": "61a6ee5"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-annotations-iosx64/61a6ee5/test-utils-annotations-iosx64-61a6ee5.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-annotations-iosx64",
+        "version": "61a6ee5"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../test-utils-annotations-js/61a6ee5/test-utils-annotations-js-61a6ee5.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-annotations-js",
+        "version": "61a6ee5"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../test-utils-annotations-js/61a6ee5/test-utils-annotations-js-61a6ee5.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-annotations-js",
+        "version": "61a6ee5"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-utils-annotations-jvm/61a6ee5/test-utils-annotations-jvm-61a6ee5.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-annotations-jvm",
+        "version": "61a6ee5"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../test-utils-annotations-jvm/61a6ee5/test-utils-annotations-jvm-61a6ee5.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-annotations-jvm",
+        "version": "61a6ee5"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../test-utils-annotations-linuxx64/61a6ee5/test-utils-annotations-linuxx64-61a6ee5.module",
+        "group": "tech.antibytes.test-utils-kmp",
+        "module": "test-utils-annotations-linuxx64",
+        "version": "61a6ee5"
+      }
+    }
+  ]
+}

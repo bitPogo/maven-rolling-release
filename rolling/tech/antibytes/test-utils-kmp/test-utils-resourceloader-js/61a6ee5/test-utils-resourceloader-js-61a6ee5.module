@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-resourceloader/61a6ee5/test-utils-resourceloader-61a6ee5.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-resourceloader",
+    "version": "61a6ee5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-nodejs",
+          "version": {
+            "requires": "0.0.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-js",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-annotations-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-resourceloader-js-61a6ee5.klib",
+          "url": "test-utils-resourceloader-js-61a6ee5.klib",
+          "size": 9578,
+          "sha512": "0f703992eb093597c35d633413658c91d1df9dad3db683eaea1b3c8a07081ef22c10059939540df7e427487ce93faad15fc54af495e96ea10ba494242ffefd7a",
+          "sha256": "ab8440e0b7b5b0189a5f33977ef19558e475c64bd4c1349b35119ecf85d0cc51",
+          "sha1": "4f4930f2b7e579aff04df4d78a031e9923ea8d32",
+          "md5": "76a88472f3bbd45aefbf0c669a0363bf"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-nodejs",
+          "version": {
+            "requires": "0.0.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-js",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-annotations-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-resourceloader-js-61a6ee5.klib",
+          "url": "test-utils-resourceloader-js-61a6ee5.klib",
+          "size": 9578,
+          "sha512": "0f703992eb093597c35d633413658c91d1df9dad3db683eaea1b3c8a07081ef22c10059939540df7e427487ce93faad15fc54af495e96ea10ba494242ffefd7a",
+          "sha256": "ab8440e0b7b5b0189a5f33977ef19558e475c64bd4c1349b35119ecf85d0cc51",
+          "sha1": "4f4930f2b7e579aff04df4d78a031e9923ea8d32",
+          "md5": "76a88472f3bbd45aefbf0c669a0363bf"
+        }
+      ]
+    }
+  ]
+}

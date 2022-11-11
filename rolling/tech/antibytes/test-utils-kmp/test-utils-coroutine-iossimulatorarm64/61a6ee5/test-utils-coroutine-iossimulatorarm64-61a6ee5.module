@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils-coroutine/61a6ee5/test-utils-coroutine-61a6ee5.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils-coroutine",
+    "version": "61a6ee5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-coroutine.klib",
+          "url": "test-utils-coroutine-iossimulatorarm64-61a6ee5.klib",
+          "size": 10210,
+          "sha512": "4e6c8650d52b4ac184d14f704e3a2a119b82315ba8665094297dde817c1c6577a274a1a2e6359a9d6462dfe15d26359db6fd028bf3cc6e44b27ffe56eb1be57b",
+          "sha256": "73ed4ced9dd0d433a6e8a1e48b1406ae0a38155c2f9061ee8cf21f5e9dc30343",
+          "sha1": "1f2884ffc19bcb91d904ed12d8b018dd5e120388",
+          "md5": "fa44c515a7a2019b52cf5c51c692b7f2"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-coroutine-iossimulatorarm64-61a6ee5-metadata.jar",
+          "url": "test-utils-coroutine-iossimulatorarm64-61a6ee5-metadata.jar",
+          "size": 261,
+          "sha512": "1d9b865565685b9e792dacbc1fd1744208413ed7082e8ef75413d682c8d9898a34bcff3941d314e322531d247a26f357207b5bc66a56eff89d95700050d66675",
+          "sha256": "3496297f4f9249ff8edd88b88701ae5380413af41ed817cfc74492828cf69cd8",
+          "sha1": "4806764c10f4e71e9195964095ede0716c8e7bf3",
+          "md5": "29e6128d01d76c94a1c6de65a1c10c1d"
+        }
+      ]
+    }
+  ]
+}

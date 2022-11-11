@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../test-utils/61a6ee5/test-utils-61a6ee5.module",
+    "group": "tech.antibytes.test-utils-kmp",
+    "module": "test-utils",
+    "version": "61a6ee5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "test-utils-jvm-61a6ee5.jar",
+          "url": "test-utils-jvm-61a6ee5.jar",
+          "size": 4570,
+          "sha512": "3dd594e325b165980c6ea44cf5c5e0214472285957282379846aaac56928eebae2eeb2f8d52d073098e13e9b395bafc14f459682df7c200383ac3bbf74488c60",
+          "sha256": "b2ffbf4805b9c6e56453f7149aecb38d59a42123a75fd992b169e86bf5304b16",
+          "sha1": "69bdec62c72d3ef02a50f51b7eaceaa345f98e21",
+          "md5": "954d5102040232f6c0b8ef43c3da446b"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-junit",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test-annotations-common",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-utils-jvm-61a6ee5.jar",
+          "url": "test-utils-jvm-61a6ee5.jar",
+          "size": 4570,
+          "sha512": "3dd594e325b165980c6ea44cf5c5e0214472285957282379846aaac56928eebae2eeb2f8d52d073098e13e9b395bafc14f459682df7c200383ac3bbf74488c60",
+          "sha256": "b2ffbf4805b9c6e56453f7149aecb38d59a42123a75fd992b169e86bf5304b16",
+          "sha1": "69bdec62c72d3ef02a50f51b7eaceaa345f98e21",
+          "md5": "954d5102040232f6c0b8ef43c3da446b"
+        }
+      ]
+    }
+  ]
+}
