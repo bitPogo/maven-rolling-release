@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.dependency.node",
+    "module": "antibytes-dependency-node",
+    "version": "0e82305",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-dependency-node-0e82305.jar",
+          "url": "antibytes-dependency-node-0e82305.jar",
+          "size": 20143,
+          "sha512": "7c3b8f93de329ea3aaaebbc4f8333eaf77ac7c2e97cdece9f9ae0bab0b3c220a7332d85c170aceb966919b30442bae5f0e0e50e0920dbb4021dad2c7d3f7a687",
+          "sha256": "6540ee6cecfd7ce3c269e8d87f411f152119a2332db63b8493aeabf0158ea507",
+          "sha1": "9c3243b3b023991c0e43d09fe03bd44fbaa3879b",
+          "md5": "f66a33941bee8e41cd7e16fa3e7e03aa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-dependency-node-0e82305.jar",
+          "url": "antibytes-dependency-node-0e82305.jar",
+          "size": 20143,
+          "sha512": "7c3b8f93de329ea3aaaebbc4f8333eaf77ac7c2e97cdece9f9ae0bab0b3c220a7332d85c170aceb966919b30442bae5f0e0e50e0920dbb4021dad2c7d3f7a687",
+          "sha256": "6540ee6cecfd7ce3c269e8d87f411f152119a2332db63b8493aeabf0158ea507",
+          "sha1": "9c3243b3b023991c0e43d09fe03bd44fbaa3879b",
+          "md5": "f66a33941bee8e41cd7e16fa3e7e03aa"
+        }
+      ]
+    }
+  ]
+}

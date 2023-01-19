@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle",
+    "module": "antibytes-gradle-utils",
+    "version": "0e82305",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-gradle-utils-0e82305.jar",
+          "url": "antibytes-gradle-utils-0e82305.jar",
+          "size": 9568,
+          "sha512": "4d1337a52b374e475ce7d3cae7c3bb670167c9195eb6c60720f128f3fd99e4b3d32893dee7b25010f47629b56a33e20e0c54e77b62a7253be6d43f4a2a26a530",
+          "sha256": "cd0f358da3d52038d775b2b62d702ba2dd700537a1c3ec3ae1bb371a9e4e3264",
+          "sha1": "85fba37c01a0c76045663639dead2e48e4450915",
+          "md5": "8878ce3c99e57fafad3cb8fb5153dc46"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-gradle-utils-0e82305.jar",
+          "url": "antibytes-gradle-utils-0e82305.jar",
+          "size": 9568,
+          "sha512": "4d1337a52b374e475ce7d3cae7c3bb670167c9195eb6c60720f128f3fd99e4b3d32893dee7b25010f47629b56a33e20e0c54e77b62a7253be6d43f4a2a26a530",
+          "sha256": "cd0f358da3d52038d775b2b62d702ba2dd700537a1c3ec3ae1bb371a9e4e3264",
+          "sha1": "85fba37c01a0c76045663639dead2e48e4450915",
+          "md5": "8878ce3c99e57fafad3cb8fb5153dc46"
+        }
+      ]
+    }
+  ]
+}

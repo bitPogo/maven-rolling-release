@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.custom-component",
+    "module": "antibytes-custom-component",
+    "version": "0e82305",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-custom-component-0e82305.jar",
+          "url": "antibytes-custom-component-0e82305.jar",
+          "size": 16172,
+          "sha512": "bef29d6f697a83e5744204b7da30eeb56216afe4c8f5899105fb5b9e37c83f743f012d63b8502bc94537530b89d50f19f491cd42a78586c00421e20a75cbde9e",
+          "sha256": "c52c80e5e0d648b0698a24e049f8b7c00aee76749bde18fb04e44e450fce2ba6",
+          "sha1": "3591cc4809fb34c0626a09062da70298886d2cc2",
+          "md5": "669af33cc228fb0a81f74e345ffe82e1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-custom-component-0e82305.jar",
+          "url": "antibytes-custom-component-0e82305.jar",
+          "size": 16172,
+          "sha512": "bef29d6f697a83e5744204b7da30eeb56216afe4c8f5899105fb5b9e37c83f743f012d63b8502bc94537530b89d50f19f491cd42a78586c00421e20a75cbde9e",
+          "sha256": "c52c80e5e0d648b0698a24e049f8b7c00aee76749bde18fb04e44e450fce2ba6",
+          "sha1": "3591cc4809fb34c0626a09062da70298886d2cc2",
+          "md5": "669af33cc228fb0a81f74e345ffe82e1"
+        }
+      ]
+    }
+  ]
+}

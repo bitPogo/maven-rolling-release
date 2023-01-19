@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.antibytes.gradle.versioning",
+    "module": "antibytes-versioning",
+    "version": "0e82305",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "antibytes-versioning-0e82305.jar",
+          "url": "antibytes-versioning-0e82305.jar",
+          "size": 21893,
+          "sha512": "f5d6c128c6f45a716380839c7282c53f3110985a65ae59ed765ca67ecc3e9ec9ddf7fb8a89536039e23fffae3d109bb52865c0d0b8d58a18db7b4190caedf0dc",
+          "sha256": "250ba1cd6abfbb3ed2deaf4910210657ab867a11ba0d66b1dfbb3377008a9f7c",
+          "sha1": "ad9ee5986be48849957df2eb0d690b437f837e21",
+          "md5": "6cd4effc4aa337cf1bdb0008d27827c0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.palantir.gradle.gitversion",
+          "module": "gradle-git-version",
+          "version": {
+            "requires": "0.15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "antibytes-versioning-0e82305.jar",
+          "url": "antibytes-versioning-0e82305.jar",
+          "size": 21893,
+          "sha512": "f5d6c128c6f45a716380839c7282c53f3110985a65ae59ed765ca67ecc3e9ec9ddf7fb8a89536039e23fffae3d109bb52865c0d0b8d58a18db7b4190caedf0dc",
+          "sha256": "250ba1cd6abfbb3ed2deaf4910210657ab867a11ba0d66b1dfbb3377008a9f7c",
+          "sha1": "ad9ee5986be48849957df2eb0d690b437f837e21",
+          "md5": "6cd4effc4aa337cf1bdb0008d27827c0"
+        }
+      ]
+    }
+  ]
+}

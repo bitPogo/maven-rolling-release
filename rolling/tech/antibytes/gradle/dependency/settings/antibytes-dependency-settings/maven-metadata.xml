@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>tech.antibytes.gradle.dependency.settings</groupId>
+  <artifactId>antibytes-dependency-settings</artifactId>
+  <versioning>
+    <latest>0e82305</latest>
+    <release>0e82305</release>
+    <versions>
+      <version>0e82305</version>
+    </versions>
+    <lastUpdated>20230119084033</lastUpdated>
+  </versioning>
+</metadata>
